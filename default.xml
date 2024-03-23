@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote name="opudon" fetch="https://github.com/opudon" revision="14" />
+  <remote name="mp" fetch="https://gitlab.com/maitreyapatni25" revision="14" />
+
 
   <project path="device/oneplus/udon" name="android_device_oneplus_udon" remote="opudon"/>
   <project path="device/oneplus/sm8450-common" name="android_device_oneplus_sm8450-common" remote="opudon"/>
@@ -10,5 +13,8 @@
   <project path="kernel/oneplus/sm8450-devicetrees" name="android_kernel_oneplus_sm8450-devicetrees" remote="opudon"/>
   <remove-project name="platform/external/wpa_supplicant_8"/>
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="opudon"/>
+  <project path="vendor/oneplus/firmware-udon" name="vendor_oneplus_firmware-udon" remote="mp" />
+  <project path="vendor/oneplus/fudon" name="vendor_oneplus_udon" remote="mp" />
+  <project path="vendor/oneplus/sm8450-common" name="vendor_oneplus_sm8450-common" remote="mp" />
 
 </manifest>
