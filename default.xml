@@ -5,16 +5,15 @@
   <remote name="mp" fetch="https://gitlab.com/maitreyapatni25" revision="14" />
 
 
-  <project path="device/oneplus/udon" name="android_device_oneplus_udon" remote="opudon"/>
-  <project path="device/oneplus/sm8450-common" name="android_device_oneplus_sm8450-common" remote="opudon"/>
-  <project path="hardware/oplus" name="hardware_oplus" remote="opudon"/>
+  <project path="device/oneplus/udon" name="android_device_oneplus_udon" remote="opudon" revision="15"/>
+  <project path="device/oneplus/sm8450-common" name="android_device_oneplus_sm8450-common" remote="opudon" revision="15"/>
+  <project path="hardware/oplus" name="hardware_oplus" remote="opudon" revision="15"/>
   <project path="hardware/dolby" name="hardware_dolby" remote="opudon"/>
   <project path="kernel/oneplus/sm8450" name="android_kernel_oneplus_sm8450" remote="opudon"/>
   <project path="kernel/oneplus/sm8450-modules" name="android_kernel_oneplus_sm8450-modules" remote="opudon"/>
   <project path="kernel/oneplus/sm8450-devicetrees" name="android_kernel_oneplus_sm8450-devicetrees" remote="opudon"/>
-  <remove-project name="LineageOS/android_external_wpa_supplicant_8"/>
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="opudon"/>
-  <project path="vendor/oneplus/udon" name="vendor_oneplus_udon" remote="mp" />
-  <project path="vendor/oneplus/sm8450-common" name="vendor_oneplus_sm8450-common" remote="mp" />
+  
+  <project path="vendor/oneplus/udon" name="vendor_oneplus_udon" remote="mp" revision="15"/>
+  <project path="vendor/oneplus/sm8450-common" name="vendor_oneplus_sm8450-common" remote="mp" revision="15"/>
   
 </manifest>
