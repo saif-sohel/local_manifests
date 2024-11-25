@@ -2,7 +2,7 @@
 
 Once you have initialised repo, clone your local manifest.
 
-`git clone https://github.com/opudon/local_manifests .repo/local_manifests`
+`git clone https://github.com/saif-sohel/local_manifests .repo/local_manifests`
 
 Now sync up, now manually clone firmware repository and build your ROM.
 ___
